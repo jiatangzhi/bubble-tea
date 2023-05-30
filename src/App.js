@@ -1,5 +1,7 @@
 import "./App.css";
 import { useState } from "react";
+import logo from "./logo.png";
+import PageHero from "./PageHero";
 
 function App() {
   const mainMenuHref = "#menu";
@@ -9,7 +11,7 @@ function App() {
     { menuTitle: "Cream Crown", menuHref: "cream-crown-menu" },
     { menuTitle: "Fruit Magic", menuHref: "fruit-magic-menu" },
     { menuTitle: "Classic Taiwan", menuHref: "classic-taiwan-menu" },
-    { menuTitle: "Ice Cooler", menuHref: "ice-cooler-menu" }
+    { menuTitle: "Ice Cooler", menuHref: "ice-cooler-menu" },
   ];
   const [addedItems, setAddedItems] = useState([]);
   function handleAddItem(item) {
@@ -24,7 +26,7 @@ function App() {
           href="index.html"
           title="T4. Bubble Tea Homepage"
         >
-          <img src="../public/logo.png" />
+          <img src={logo} className="App-logo" alt="T4. Bubble Tea" />
         </a>
         <button
           className="navbar-toggler"
@@ -40,13 +42,17 @@ function App() {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
+              <a className="nav-link high-light-text" href="#Home" title="Home">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
               <a
                 className="nav-link high-light-text"
                 href="#What-we-make"
                 title="What we make"
               >
-                {" "}
-                Specialty
+                History
               </a>
             </li>
             <li className="nav-item">
@@ -88,6 +94,7 @@ function App() {
           </ul>
         </div>
       </nav>
+      <PageHero id="Home" menuHref={mainMenuHref} />
     </div>
   );
 }
