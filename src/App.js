@@ -3,6 +3,19 @@ import { useState } from "react";
 import logo from "./logo.png";
 import PageHero from "./PageHero";
 
+// import IntroductionPage from "./IntroductionPage";
+import OpeningHours from "./OpeningHours";
+import BubbleTeaMilkTeaMenu from "./BubbleTeaMilkTeaMenu";
+import SpecialMilkTeaMenu from "./SpecialMilkTeaMenu";
+import CreamCrownMenu from "./CreamCrownMenu";
+import FruitMagicMenu from "./FruitMagicMenu";
+import ClassicTaiwanMenu from "./ClassicTaiwanMenu";
+import IceCoolerMenu from "./IceCoolerMenu";
+import MenuExtras from "./MenuExtras";
+import FloatingOrderNote from "./FloatingOrderNote";
+import Footer from "./Footer";
+
+
 function App() {
   const mainMenuHref = "#menu";
   const menuItems = [
@@ -95,6 +108,43 @@ function App() {
         </div>
       </nav>
       <PageHero id="Home" menuHref={mainMenuHref} />
+      <OpeningHours id="opening-hours" />
+      <BubbleTeaMilkTeaMenu
+        menuDetails={menuItems[0]}
+        linkToNextPage={menuItems[1].menuHref}
+      />
+      <SpecialMilkTeaMenu
+        menuDetails={menuItems[1]}
+        linkToPreviousPage={menuItems[0].menuHref}
+        linkToNextPage={menuItems[2].menuHref}
+      />
+      <CreamCrownMenu
+        menuDetails={menuItems[2]}
+        linkToPreviousPage={menuItems[1].menuHref}
+        linkToNextPage={menuItems[3].menuHref}
+      />
+      <FruitMagicMenu
+        menuDetails={menuItems[3]}
+        linkToPreviousPage={menuItems[2].menuHref}
+        linkToNextPage={menuItems[4].menuHref}
+      />
+      <ClassicTaiwanMenu
+        menuDetails={menuItems[4]}
+        linkToPreviousPage={menuItems[3].menuHref}
+        linkToNextPage={menuItems[5].menuHref}
+      />
+      <IceCoolerMenu
+        menuDetails={menuItems[5]}
+        linkToPreviousPage={menuItems[4].menuHref}
+        linkToNextPage={menuItems[6].menuHref}
+      />
+      <MenuExtras
+        menuDetails={menuItems[6]}
+        linkToPreviousPage={menuItems[5].menuHref}
+        linkToNextPage={menuItems[7].menuHref}
+      />
+      <FloatingOrderNote />
+      <Footer />
     </div>
   );
 }
