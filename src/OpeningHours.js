@@ -1,6 +1,7 @@
 import React from "react";
 import OrderGrid from "./OrderGrid";
-import DeliverooLogo from "./images/Deliveroo.png";
+import DeliverooLogo from "./images/deliveroo.png";
+
 export default function OpeningHours(props) {
   return (
     <div className="OpeningHours" id={props.id}>

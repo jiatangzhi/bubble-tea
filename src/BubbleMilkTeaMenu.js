@@ -2,6 +2,7 @@ import React from "react";
 import MenuItemGrid from "./MenuItemGrid";
 import PreviousButton from "./PreviousButton";
 import NextButton from "./NextButton";
+
 export default function BubbleTeaMilkTeaMenu(props) {
   const menuItems = [
     { food: "Pearl Milk Tea", prices: [{ price: 4.2 }] },

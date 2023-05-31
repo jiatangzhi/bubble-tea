@@ -1,8 +1,8 @@
 import React from "react";
 import OrderGrid from "./OrderGrid";
-import History from "./images/history.jpeg";
 import DeliverooLogo from "./images/deliveroo.png";
 import PhoneIcon from "./images/phone.png";
+import Cup from "./images/cup.png";
 
 export default function History(props) {
   return (
@@ -29,7 +29,7 @@ export default function History(props) {
               worldwide.
             </p>
             <div className="image-grid">
-              <img className="sqaure-image" src={History} alt="History"></img>
+              <img className="sqaure-image" src={Cup} alt="Cup"></img>
             </div>
             <h2 className="black-large-title display-none-when-extra-small">
               Order Now
