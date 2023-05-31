@@ -1,5 +1,4 @@
 import "./App.css";
-import { useState } from "react";
 import logo from "./logo.png";
 import PageHero from "./PageHero";
 
@@ -26,10 +25,6 @@ function App() {
     { menuTitle: "Classic Taiwan", menuHref: "classic-taiwan-menu" },
     { menuTitle: "Ice Cooler", menuHref: "ice-cooler-menu" },
   ];
-  const [addedItems, setAddedItems] = useState([]);
-  function handleAddItem(item) {
-    setAddedItems([...addedItems, item]);
-  }
 
   return (
     <div className="App">
