@@ -1,7 +1,6 @@
 import React from "react";
 import OrderGrid from "./OrderGrid";
 import History from "./images/history.jpeg";
-import Philosophy from "./images/philosophy.png";
 import DeliverooLogo from "./images/deliveroo.png";
 import PhoneIcon from "./images/phone.png";
 
