@@ -2,6 +2,7 @@ import React from "react";
 import MenuItemGrid from "./MenuItemGrid";
 import PreviousButton from "./PreviousButton";
 import NextButton from "./NextButton";
+
 export default function FruitMagicMenu(props) {
   const menuItems = [
     { food: "Elegant Lady Rose Tea", prices: [{ price: 4.0 }] },

@@ -3,7 +3,7 @@ import MenuItemGrid from "./MenuItemGrid";
 import PreviousButton from "./PreviousButton";
 import NextButton from "./NextButton";
 
-export default function BubbleTeaMilkTeaMenu(props) {
+export default function BubbleMilkTeaMenu(props) {
   const menuItems = [
     { food: "Pearl Milk Tea", prices: [{ price: 4.2 }] },
     { food: "Grass Jelly Milk Tea", prices: [{ price: 4.2 }] },
@@ -22,7 +22,7 @@ export default function BubbleTeaMilkTeaMenu(props) {
   ];
 
   return (
-    <div className="bubbleTeaMilkTeaMenu" id={props.menuDetails.menuHref}>
+    <div className="BubbleMilkTeaMenu" id={props.menuDetails.menuHref}>
       <div className="stay-middle-section-padding">
         <div className="previous-menu-next-grid">
           <PreviousButton link={props.linkToPreviousPage} />
