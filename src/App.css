@@ -30,7 +30,6 @@ button:hover {
   transform: scale(1.01);
   filter: brightness(120%);
 }
-
 .highlight-background {
   background-image: var(--highlight-background);
   font-weight: bold;
@@ -45,9 +44,9 @@ button:hover {
 img {
   border-radius: 5px;
 }
-
-.brandLogo {
-  max-width: 20px;
+.App-logo {
+  max-width: 3.5rem;
+  margin: 0 2.5rem;
 }
 .page-divider {
   margin: 3vh 0;
@@ -59,14 +58,16 @@ img {
 .image-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  /* grid-gap: 8rem; */
 }
-.section-padding,
-.stay-middle-section-padding {
-  padding: var(--section-padding);
+.PageHero .container {
+  padding: 40px 50px;
   min-height: 100vh;
   display: grid;
-  align-content: center;
+  /* align-content: center; */
+}
+.navbar {
+  height: 80px;
 }
 .navbar-decoration,
 .dropdown-menu {
@@ -74,11 +75,33 @@ img {
 }
 .PageHero {
   background-image: url(images/hero.jpeg);
+  position: sticky;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   width: 100%;
+}
+.pagehero-top-grid {
+  display: grid;
+  grid-template-columns: 8fr 1fr 1fr;
+  grid-gap: 5px 30px;
+}
+.order-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  margin: 1vh auto;
+  justify-items: center;
+}
+.float-end {
+  justify-self: flex-end;
+}
+.float-center {
+  justify-self: center;
+}
+.text-center {
+  text-align: center;
 }
 .icon-adjustments,
 .floating-icon-adjustments {
@@ -89,5 +112,11 @@ img {
 }
 .floating-icon-adjustments {
   width: 9vh;
-  border-radius: 30px;
+  border-radius: 0.5rem;
+}
+
+.subHeading,
+.high-light-text,
+.MenuButton {
+  transform: scale(0.8);
 }
