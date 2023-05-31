@@ -3,7 +3,7 @@ import { useState } from "react";
 import logo from "./logo.png";
 import PageHero from "./PageHero";
 
-// import IntroductionPage from "./IntroductionPage";
+import History from "./History";
 import OpeningHours from "./OpeningHours";
 import BubbleTeaMilkTeaMenu from "./BubbleTeaMilkTeaMenu";
 import SpecialMilkTeaMenu from "./SpecialMilkTeaMenu";
@@ -11,7 +11,7 @@ import CreamCrownMenu from "./CreamCrownMenu";
 import FruitMagicMenu from "./FruitMagicMenu";
 import ClassicTaiwanMenu from "./ClassicTaiwanMenu";
 import IceCoolerMenu from "./IceCoolerMenu";
-import MenuExtras from "./MenuExtras";
+import AddOn from "./AddOn";
 import FloatingOrderNote from "./FloatingOrderNote";
 import Footer from "./Footer";
 
@@ -108,6 +108,7 @@ function App() {
         </div>
       </nav>
       <PageHero id="Home" menuHref={mainMenuHref} />
+      <History id="History" menuHref={mainMenuHref} />
       <OpeningHours id="opening-hours" />
       <BubbleTeaMilkTeaMenu
         menuDetails={menuItems[0]}
@@ -138,7 +139,7 @@ function App() {
         linkToPreviousPage={menuItems[4].menuHref}
         linkToNextPage={menuItems[6].menuHref}
       />
-      <MenuExtras
+      <AddOn
         menuDetails={menuItems[6]}
         linkToPreviousPage={menuItems[5].menuHref}
         linkToNextPage={menuItems[7].menuHref}
