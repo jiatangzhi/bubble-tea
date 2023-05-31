@@ -4,20 +4,19 @@ import PreviousButton from "./PreviousButton";
 import NextButton from "./NextButton";
 export default function FruitMagicMenu(props) {
   const menuItems = [
-    { food: "Pearl Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Grass Jellly Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "French Pudding Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "QQ Style Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Coconut Jelly Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Coffee Jelly Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Oreo Potted Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Red Bean Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Panda Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Crystal Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Caramel Pearl Milk Tea", prices: [{ price: 4.7 }] },
-    { food: "Red Bean Almond Tea", prices: [{ price: 4.7 }] },
-    { food: "Fresh Taro Milk Tea", prices: [{ price: 5.2 }] },
-    { food: "Taro Bobo Milk Tea", prices: [{ price: 5.4 }] },
+    { food: "Elegant Lady Rose Tea", prices: [{ price: 4.0 }] },
+    { food: "Lychee Blavk Tea with Aloe", prices: [{ price: 4.0 }] },
+    { food: "Honey Aloe", prices: [{ price: 4.0 }] },
+    { food: "Ophelia Rose Aloe", prices: [{ price: 4.0 }] },
+    { food: "Strawberry Tea", prices: [{ price: 4.0 }] },
+    { food: "Honey Peach Royal Tea", prices: [{ price: 4.0 }] },
+    { food: "Passionfruit Royal Tea", prices: [{ price: 4.0 }] },
+    { food: "Grapefruit Royal Tea", prices: [{ price: 4.0 }] },
+    { food: "Mango Royal Tea", prices: [{ price: 4.0 }] },
+    { food: "Lemon Royal Tea", prices: [{ price: 4.0 }] },
+    { food: "Grapes Aloe", prices: [{ price: 4.0 }] },
+    { food: "Peach Double Green", prices: [{ price: 4.2 }] },
+    { food: "Mulberry Tea", prices: [{ price: 4.2 }] }
   ];
 
   return (

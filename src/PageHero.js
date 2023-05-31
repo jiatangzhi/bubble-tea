@@ -9,7 +9,7 @@ import InstagramIcon from "./images/instagram.png";
 export default function PageHero(props) {
   return (
     <div className="PageHero">
-      <div className="container">
+      <div className="stay-middle-section-padding">
         <div className="pagehero-top-grid">
           <a
             className="display-none-when-extra-small"

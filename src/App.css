@@ -66,6 +66,13 @@ img {
   display: grid;
   /* align-content: center; */
 }
+.section-padding,
+.stay-middle-section-padding {
+  padding: var(--section-padding);
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+}
 .navbar {
   height: 80px;
 }

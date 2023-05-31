@@ -5,7 +5,7 @@ import NextButton from "./NextButton";
 export default function BubbleTeaMilkTeaMenu(props) {
   const menuItems = [
     { food: "Pearl Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Grass Jellly Milk Tea", prices: [{ price: 4.2 }] },
+    { food: "Grass Jelly Milk Tea", prices: [{ price: 4.2 }] },
     { food: "French Pudding Milk Tea", prices: [{ price: 4.2 }] },
     { food: "QQ Style Milk Tea", prices: [{ price: 4.2 }] },
     { food: "Coconut Jelly Milk Tea", prices: [{ price: 4.2 }] },

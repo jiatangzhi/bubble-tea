@@ -4,20 +4,16 @@ import PreviousButton from "./PreviousButton";
 import NextButton from "./NextButton";
 export default function IceCoolerMenu(props) {
   const menuItems = [
-    { food: "Pearl Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Grass Jellly Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "French Pudding Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "QQ Style Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Coconut Jelly Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Coffee Jelly Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Oreo Potted Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Red Bean Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Panda Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Crystal Milk Tea", prices: [{ price: 4.2 }] },
-    { food: "Caramel Pearl Milk Tea", prices: [{ price: 4.7 }] },
-    { food: "Red Bean Almond Tea", prices: [{ price: 4.7 }] },
-    { food: "Fresh Taro Milk Tea", prices: [{ price: 5.2 }] },
-    { food: "Taro Bobo Milk Tea", prices: [{ price: 5.4 }] },
+    { food: "Lemon & Aloe Smoothie", prices: [{ price: 4.7 }] },
+    { food: "Lychee & Aloe Smoothie", prices: [{ price: 4.7 }] },
+    { food: "Passionfruit Smoothie", prices: [{ price: 4.7 }] },
+    { food: "Chocolate Smoothie", prices: [{ price: 4.7 }] },
+    { food: "Red Bean Milkshake", prices: [{ price: 4.7 }] },
+    { food: "Oreo Potted Milkshake", prices: [{ price: 4.7 }] },
+    { food: "Strawberry Milkshake", prices: [{ price: 4.7 }] },
+    { food: "Taro Milkshake", prices: [{ price: 4.7 }] },
+    { food: "Alond Milkshake with Pearl", prices: [{ price: 5.2 }] },
+    { food: "Fresh Taro Milkshake", prices: [{ price: 5.4 }] },
   ];
 
   return (
