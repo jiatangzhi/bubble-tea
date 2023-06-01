@@ -1,4 +1,5 @@
 import React from "react";
+
 export default function MenuFilter(props) {
   return (
     <div className="MenuFilter stay-middle-section-padding" id={props.id}>
