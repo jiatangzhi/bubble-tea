@@ -3,6 +3,8 @@ import logo from "./logo.png";
 import PageHero from "./PageHero";
 import History from "./History";
 import OpeningHours from "./OpeningHours";
+import PartyCatering from "./PartyCatering";
+import MenuFilter from "./MenuFilter";
 import BubbleMilkTeaMenu from "./BubbleMilkTeaMenu";
 import SpecialMilkTeaMenu from "./SpecialMilkTeaMenu";
 import CreamCrownMenu from "./CreamCrownMenu";
@@ -102,8 +104,10 @@ function App() {
         </div>
       </nav>
       <PageHero id="Home" menuHref={mainMenuHref} />
-      <History id="History" menuHref={mainMenuHref} />
-      <OpeningHours id="opening-hours" menuHref={mainMenuHref} />
+      <History id="What-we-make" />
+      <OpeningHours id="opening-hours" />
+      <PartyCatering id="party-catering" menuHref={mainMenuHref} />
+      <MenuFilter id="menu" menuItems={menuItems} />
       <BubbleMilkTeaMenu
         menuDetails={menuItems[0]}
         linkToNextPage={menuItems[1].menuHref}

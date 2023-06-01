@@ -1,6 +1,7 @@
 import React from "react";
 import MenuButton from "./MenuButton";
 import MapEmbed from "./MapEmbed";
+
 export default function PartyCatering(props) {
   return (
     <div className="PartyCatering" id={props.id}>

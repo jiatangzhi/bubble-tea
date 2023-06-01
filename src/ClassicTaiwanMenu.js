@@ -2,6 +2,7 @@ import React from "react";
 import MenuItemGrid from "./MenuItemGrid";
 import PreviousButton from "./PreviousButton";
 import NextButton from "./NextButton";
+
 export default function ClassicTaiwanMenu(props) {
   const menuItems = [
     { food: "Jadeite Royal Tea", prices: [{ price: 3.0 }] },

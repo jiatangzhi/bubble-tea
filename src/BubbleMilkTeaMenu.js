@@ -1,6 +1,5 @@
 import React from "react";
 import MenuItemGrid from "./MenuItemGrid";
-import PreviousButton from "./PreviousButton";
 import NextButton from "./NextButton";
 
 export default function BubbleMilkTeaMenu(props) {
@@ -25,7 +24,6 @@ export default function BubbleMilkTeaMenu(props) {
     <div className="BubbleMilkTeaMenu" id={props.menuDetails.menuHref}>
       <div className="stay-middle-section-padding">
         <div className="previous-menu-next-grid">
-          <PreviousButton link={props.linkToPreviousPage} />
           <div className="menu-card">
             <h3 className="itallic-subHeading">
               {props.menuDetails.menuTitle}
