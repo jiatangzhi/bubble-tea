@@ -6,7 +6,7 @@ import Cup from "./images/cup.png";
 
 export default function History(props) {
   return (
-    <div className="IntroductionPage" id={props.id}>
+    <div className="History" id={props.id}>
       <div className="half-a-page-grid">
         <div className="introduction-half-page-image">
           <div className="section-padding">

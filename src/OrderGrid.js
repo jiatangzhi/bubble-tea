@@ -2,7 +2,7 @@ import React from "react";
 
 export default function OrderGrid(props) {
   return (
-    <div className="order-grid display-none-when-extra-small">
+    <div className="OrderGrid display-none-when-extra-small">
       <a
         id="order-links"
         href={props.link1}

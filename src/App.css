@@ -223,12 +223,12 @@ img {
   width: 100%;
   aspect-ratio: 1/1;
 }
-.pagehero-top-grid {
+.PageHero-top-grid {
   display: grid;
   grid-template-columns: 8fr 1fr 1fr;
   grid-gap: 5px 30px;
 }
-.order-grid {
+.OrderGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
@@ -295,8 +295,8 @@ img {
   display: grid;
   grid-template-columns: 0.1fr 0.8fr 0.1fr;
 }
-.previousButton,
-.nextButton {
+.PreviousButton,
+.NextButton {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -337,7 +337,7 @@ footer {
   .display-none-when-small {
     display: none;
   }
-  .order-grid,
+  .OrderGrid,
   .half-a-page-grid,
   .previous-menu-next-grid {
     grid-template-columns: 1fr;

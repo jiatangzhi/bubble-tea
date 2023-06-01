@@ -3,6 +3,7 @@ import PhoneIcon from "./images/phone.png";
 import DeliverooLogo from "./images/deliveroo.png";
 import FaceBookLogo from "./images/facebook.png";
 import InstagramLogo from "./images/instagram.png";
+
 export default function FloatingOrderNote() {
   const socialMedias = [
     {
