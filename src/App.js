@@ -35,11 +35,7 @@ function App() {
           href="index.html"
           title="T4 Homepage"
         >
-          <img
-            src={logo}
-            className="logo"
-            alt="T4 Bubble Tea"
-          />
+          <img src={logo} className="logo" alt="T4 Bubble Tea" />
         </a>
         <button
           className="navbar-toggler"
