@@ -7,7 +7,7 @@
   --subtle-shadow: 3px 4px 43px -4px rgba(0, 0, 0, 0.15);
   --button-background-color: linear-gradient(135deg, #40aaf3 40%, #4de5fc);
   --section-padding: 40px 50px;
-  --screen-section-padding: 40px 15px;
+  --576px-screen-section-padding: 40px 15px;
   --highlight-background: linear-gradient(135deg, #40aaf3 40%, #4de5fc);
 }
 body {
@@ -76,7 +76,7 @@ img {
 .note-items {
   font-size: 2.5vh;
 }
-.App-logo {
+.brandLogo {
   max-width: 20px;
 }
 .page-divider {
@@ -98,13 +98,22 @@ img {
   display: grid;
   align-content: center;
 }
-
+.logo {
+  width: 40px;
+  margin-left: 30px;
+}
 .navbar-decoration,
 .dropdown-menu {
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 .PageHero {
-  background-image: url(images/hero.jpeg);
+  background-image: linear-gradient(
+      181deg,
+      rgba(20, 20, 20, 0.705) 0%,
+      rgba(0, 195, 255, 0.192) 50%,
+      rgba(14, 13, 13, 0.719) 100%
+    ),
+    url(images/t4-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -124,7 +133,7 @@ img {
       rgba(9, 9, 9, 0.6) 60%,
       rgba(14, 13, 13, 0.98) 95%
     ),
-    url(images/bg-history.png);
+    url(/src/images/introduction-page.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -137,7 +146,7 @@ img {
       rgba(9, 9, 9, 0.6) 60%,
       rgba(14, 13, 13, 0.98) 95%
     ),
-    url(images/open.jpeg);
+    url(images/were-open.jpg);
 }
 .party-half-page-image {
   background-image: linear-gradient(
@@ -147,7 +156,7 @@ img {
       rgba(9, 9, 9, 0.6) 60%,
       rgba(14, 13, 13, 0.98) 95%
     ),
-    url(images/bg-history.png);
+    url(images/mission.jpg);
 }
 .white-text {
   color: #ffffff;
@@ -211,24 +220,24 @@ img {
 .icon-adjustments,
 .floating-icon-adjustments {
   width: 7vh;
-  border-radius: 22px;
+  border-radius: 15px;
   padding: 4px;
   filter: brightness(110%);
 }
 .floating-icon-adjustments {
   width: 9vh;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 .sqaure-image {
   width: 100%;
   aspect-ratio: 1/1;
 }
-.PageHero-top-grid {
+.pagehero-top-grid {
   display: grid;
   grid-template-columns: 8fr 1fr 1fr;
   grid-gap: 5px 30px;
 }
-.OrderGrid {
+.order-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
@@ -295,8 +304,8 @@ img {
   display: grid;
   grid-template-columns: 0.1fr 0.8fr 0.1fr;
 }
-.PreviousButton,
-.NextButton {
+.previousButton,
+.nextButton {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -310,7 +319,7 @@ img {
   box-shadow: var(--subtle-shadow);
 }
 .fa-heart,
-.fa-dumpster {
+.fa-trash {
   background: none;
   color: rgb(196 196 196 / 46%);
   padding: 2px;
@@ -337,7 +346,7 @@ footer {
   .display-none-when-small {
     display: none;
   }
-  .OrderGrid,
+  .order-grid,
   .half-a-page-grid,
   .previous-menu-next-grid {
     grid-template-columns: 1fr;
@@ -383,15 +392,15 @@ footer {
     display: none;
   }
   .section-padding {
-    padding: var(--screen-section-padding);
+    padding: var(--576px-screen-section-padding);
     min-height: 100%;
   }
   .stay-middle-section-padding {
-    padding: var(--screen-section-padding);
+    padding: var(--576px-screen-section-padding);
   }
   .menuTypeGrid {
     grid-template-columns: repeat(2, 1fr);
-    padding: var(--screen-section-padding);
+    padding: var(--576px-screen-section-padding);
   }
   .floating-icon-adjustments {
     width: 5vh;
