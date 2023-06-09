@@ -40,16 +40,8 @@ export default function IntroductionPage(props) {
               strive for success with every experiential process.
             </p>
             <div className="image-grid">
-              <img
-                className="sqaure-image"
-                src={History2}
-                alt="pieNSauce"
-              ></img>
-              <img
-                className="sqaure-image"
-                src={History1}
-                alt="fish-chips"
-              ></img>
+              <img className="sqaure-image" src={History2} alt="History2"></img>
+              <img className="sqaure-image" src={History1} alt="History1"></img>
             </div>
             <h2 className="black-large-title display-none-when-extra-small">
               Order Now
