@@ -21,7 +21,7 @@ export default function FloatingOrderNote() {
     { method: PhoneIcon, content: "02087493900", href: "tel:02087493900" },
     {
       method: UberEatsLogo,
-      content: "Just Eat",
+      content: "Uber Eats",
       href: "https://www.ubereats.com/gb/store/t4-bubble-tea-westfield/I6yyGQM8SDed7H36x9skFg",
     },
     {
