@@ -56,7 +56,7 @@ export default function MenuItemGrid(props) {
                 </button>
               </span>
               <button className="plus-minus-buttons" onClick={handleBin}>
-                <i className="fa-solid fa-dumpster"></i>
+                <i className="fa-solid fa-trash"></i>
               </button>
             </div>
           )}

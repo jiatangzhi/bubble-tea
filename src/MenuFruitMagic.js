@@ -2,8 +2,7 @@ import React from "react";
 import MenuItemGrid from "./MenuItemGrid";
 import PreviousButton from "./PreviousButton";
 import NextButton from "./NextButton";
-
-export default function FruitMagicMenu(props) {
+export default function MenuFruitMagic(props) {
   const menuItems = [
     { food: "Elegant Lady Rose Tea", prices: [{ price: 4.0 }] },
     { food: "Lychee Blavk Tea with Aloe", prices: [{ price: 4.0 }] },
@@ -21,7 +20,7 @@ export default function FruitMagicMenu(props) {
   ];
 
   return (
-    <div className="FruitMagicMenu" id={props.menuDetails.menuHref}>
+    <div className="MenuFruitMagicer" id={props.menuDetails.menuHref}>
       <div className="stay-middle-section-padding">
         <div className="previous-menu-next-grid">
           <PreviousButton link={props.linkToPreviousPage} />

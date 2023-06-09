@@ -1,9 +1,9 @@
 import React from "react";
 import PhoneIcon from "./images/phone.png";
+import UberEatsLogo from "./images/uberEats.png";
 import DeliverooLogo from "./images/deliveroo.png";
 import FaceBookLogo from "./images/facebook.png";
 import InstagramLogo from "./images/instagram.png";
-
 export default function FloatingOrderNote() {
   const socialMedias = [
     {
@@ -18,11 +18,16 @@ export default function FloatingOrderNote() {
     },
   ];
   const details = [
-    { method: PhoneIcon, content: "02085554090", href: "tel:02085554090" },
+    { method: PhoneIcon, content: "02087493900", href: "tel:02087493900" },
+    {
+      method: UberEatsLogo,
+      content: "Just Eat",
+      href: "https://www.ubereats.com/gb/store/t4-bubble-tea-westfield/I6yyGQM8SDed7H36x9skFg",
+    },
     {
       method: DeliverooLogo,
       content: "Deliveroo",
-      href: "https://deliveroo.co.uk/brands/t4/?utm_medium=backlink&utm_source=t4&utm_campaign=webreferral",
+      href: "https://deliveroo.co.uk/brands/t4",
     },
   ];
   return (

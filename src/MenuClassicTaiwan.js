@@ -2,22 +2,25 @@ import React from "react";
 import MenuItemGrid from "./MenuItemGrid";
 import PreviousButton from "./PreviousButton";
 import NextButton from "./NextButton";
-export default function IceCoolerMenu(props) {
+export default function MenuClassicTaiwan(props) {
   const menuItems = [
-    { food: "Lemon & Aloe Smoothie", prices: [{ price: 4.7 }] },
-    { food: "Lychee & Aloe Smoothie", prices: [{ price: 4.7 }] },
-    { food: "Passionfruit Smoothie", prices: [{ price: 4.7 }] },
-    { food: "Chocolate Smoothie", prices: [{ price: 4.7 }] },
-    { food: "Red Bean Milkshake", prices: [{ price: 4.7 }] },
-    { food: "Oreo Potted Milkshake", prices: [{ price: 4.7 }] },
-    { food: "Strawberry Milkshake", prices: [{ price: 4.7 }] },
-    { food: "Taro Milkshake", prices: [{ price: 4.7 }] },
-    { food: "Alond Milkshake with Pearl", prices: [{ price: 5.2 }] },
-    { food: "Fresh Taro Milkshake", prices: [{ price: 5.4 }] },
+    { food: "Jadeite Royal Tea", prices: [{ price: 3.0 }] },
+    { food: "Jasmine Green Tea", prices: [{ price: 3.0 }] },
+    { food: "Earl Grey Tea", prices: [{ price: 3.0 }] },
+    { food: "Roasted Oolong Tea", prices: [{ price: 3.0 }] },
+    {
+      food: "Winter Melon",
+      prices: [
+        { size: "Winter Melon", price: 3.0 },
+        { size: "Winter Melon Lemon", price: 3.7 },
+        { size: "Winter Melon Milk Tea", price: 3.7 },
+      ],
+    },
+    { food: "House Grass Jelly", prices: [{ price: 3.7 }] },
   ];
 
   return (
-    <div className="IceCoolerMenu" id={props.menuDetails.menuHref}>
+    <div className="MenuClassicTaiwan" id={props.menuDetails.menuHref}>
       <div className="stay-middle-section-padding">
         <div className="previous-menu-next-grid">
           <PreviousButton link={props.linkToPreviousPage} />
@@ -25,6 +28,7 @@ export default function IceCoolerMenu(props) {
             <h3 className="itallic-subHeading">
               {props.menuDetails.menuTitle}
             </h3>
+
             {menuItems.map((item) => (
               <MenuItemGrid
                 key={item.food}

@@ -1,8 +1,7 @@
 import React from "react";
 import MenuItemGrid from "./MenuItemGrid";
 import NextButton from "./NextButton";
-
-export default function BubbleMilkTeaMenu(props) {
+export default function MenuBubbleMilkTea(props) {
   const menuItems = [
     { food: "Pearl Milk Tea", prices: [{ price: 4.2 }] },
     { food: "Grass Jelly Milk Tea", prices: [{ price: 4.2 }] },
@@ -21,9 +20,10 @@ export default function BubbleMilkTeaMenu(props) {
   ];
 
   return (
-    <div className="BubbleMilkTeaMenu" id={props.menuDetails.menuHref}>
+    <div className="MenuBubbleMilkTea" id={props.menuDetails.menuHref}>
       <div className="stay-middle-section-padding">
         <div className="previous-menu-next-grid">
+          <div></div>
           <div className="menu-card">
             <h3 className="itallic-subHeading">
               {props.menuDetails.menuTitle}

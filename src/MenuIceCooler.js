@@ -2,18 +2,22 @@ import React from "react";
 import MenuItemGrid from "./MenuItemGrid";
 import PreviousButton from "./PreviousButton";
 import NextButton from "./NextButton";
-export default function CreamCrownMenu(props) {
+export default function MenuMenuIceCooler(props) {
   const menuItems = [
-    { food: "Crown Green Tea", prices: [{ price: 4.4 }] },
-    { food: "Crown Earl Grey Tea", prices: [{ price: 4.4 }] },
-    { food: "Crown Oolong Milk Tea", prices: [{ price: 4.4 }] },
-    { food: "Crown Jadeite Royal Tea", prices: [{ price: 4.4 }] },
-    { food: "Crown Chocolate", prices: [{ price: 4.4 }] },
-    { food: "Cream Crown Double Green", prices: [{ price: 4.6 }] },
+    { food: "Lemon & Aloe Smoothie", prices: [{ price: 4.7 }] },
+    { food: "Lychee & Aloe Smoothie", prices: [{ price: 4.7 }] },
+    { food: "Passionfruit Smoothie", prices: [{ price: 4.7 }] },
+    { food: "Chocolate Smoothie", prices: [{ price: 4.7 }] },
+    { food: "Red Bean Milkshake", prices: [{ price: 4.7 }] },
+    { food: "Oreo Potted Milkshake", prices: [{ price: 4.7 }] },
+    { food: "Strawberry Milkshake", prices: [{ price: 4.7 }] },
+    { food: "Taro Milkshake", prices: [{ price: 4.7 }] },
+    { food: "Alond Milkshake with Pearl", prices: [{ price: 5.2 }] },
+    { food: "Fresh Taro Milkshake", prices: [{ price: 5.4 }] },
   ];
 
   return (
-    <div className="CreamCrownMenu" id={props.menuDetails.menuHref}>
+    <div className="MenuIceCooler" id={props.menuDetails.menuHref}>
       <div className="stay-middle-section-padding">
         <div className="previous-menu-next-grid">
           <PreviousButton link={props.linkToPreviousPage} />
