@@ -1,9 +1,36 @@
 import React from "react";
 import MenuItemGrid from "./MenuItemGrid";
 import PreviousButton from "./PreviousButton";
-
-export default function AddOn(props) {
+export default function MenuExtras(props) {
   const menuItems = [
+    {
+      food: "Size",
+      prices: [
+        { size: "Regular", price: null },
+        { size: "Large", price: 0.6 },
+      ],
+    },
+    {
+      food: "Ice Cubes",
+      prices: [
+        { size: "Warm", price: null },
+        { size: "No Ice", price: null },
+        { size: "Slightly", price: null },
+        { size: "A little", price: null },
+        { size: "Standard", price: null },
+        { size: "Lots", price: null },
+      ],
+    },
+    {
+      food: "Sweetness",
+      prices: [
+        { size: "None", price: null },
+        { size: "Slightly", price: null },
+        { size: "A little", price: null },
+        { size: "Standard", price: null },
+        { size: "Lots", price: null },
+      ],
+    },
     {
       food: "Pearl",
       prices: [{ price: 0.6 }],

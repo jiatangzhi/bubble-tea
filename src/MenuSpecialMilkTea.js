@@ -2,7 +2,8 @@ import React from "react";
 import MenuItemGrid from "./MenuItemGrid";
 import PreviousButton from "./PreviousButton";
 import NextButton from "./NextButton";
-export default function SpecialMilkTeaMenu(props) {
+
+export default function MenuSpecialMilkTea(props) {
   const menuItems = [
     { food: "Jadeite Royal Milk Tea", prices: [{ price: 4.0 }] },
     { food: "Jasmine Green Milk Tea", prices: [{ price: 4.0 }] },
@@ -17,7 +18,7 @@ export default function SpecialMilkTeaMenu(props) {
   ];
 
   return (
-    <div className="SpecialMilkTeaMenu" id={props.menuDetails.menuHref}>
+    <div className="MenuSpecialMilkTea" id={props.menuDetails.menuHref}>
       <div className="stay-middle-section-padding">
         <div className="previous-menu-next-grid">
           <PreviousButton link={props.linkToPreviousPage} />

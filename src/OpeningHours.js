@@ -1,7 +1,7 @@
 import React from "react";
 import OrderGrid from "./OrderGrid";
 import DeliverooLogo from "./images/deliveroo.png";
-
+import UberEatsLogo from "./images/uberEats.png";
 export default function OpeningHours(props) {
   return (
     <div className="OpeningHours" id={props.id}>
@@ -31,7 +31,8 @@ export default function OpeningHours(props) {
               </p>
             </div>
             <p className="paragraph-of-small-info">
-              We have moved our delivery service to Deliveroo. <br />
+              We have moved our delivery service to Uber Eats & Deliveroo.{" "}
+              <br />
               This will enable us to take order & deliver much quicker
               throughout our opening hours.
             </p>
@@ -40,10 +41,14 @@ export default function OpeningHours(props) {
             </h2>
             <OrderGrid
               textColor="black"
-              logo1={DeliverooLogo}
-              link1={`https://deliveroo.co.uk/brands/t4/?utm_medium=backlink&utm_source=t4&utm_campaign=webreferral`}
-              content1={`Deliveroo`}
-              linkTitle1={`Order on Deliveroo`}
+              logo1={UberEatsLogo}
+              logo2={DeliverooLogo}
+              link1={`https://www.ubereats.com/gb/store/t4-bubble-tea-westfield/I6yyGQM8SDed7H36x9skFg`}
+              link2={`https://deliveroo.co.uk/brands/t4`}
+              content1={`Uber Eats`}
+              content2={`Deliveroo`}
+              linkTitle1={`Order on Uber Eats`}
+              linkTitle2={`Order on Deliveroo`}
             />
           </div>
         </div>
