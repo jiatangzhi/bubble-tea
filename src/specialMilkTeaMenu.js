@@ -13,7 +13,7 @@ export default function SpecialMilkTeaMenu(props) {
     { food: "Ballet Chocolate Milk Tea", prices: [{ price: 4.2 }] },
     { food: "Matcha Latte", prices: [{ price: 4.2 }] },
     { food: "White Almond Tea", prices: [{ price: 4.2 }] },
-    { food: "Mulberry Milk Tea", prices: [{ price: 4.7 }] }
+    { food: "Mulberry Milk Tea", prices: [{ price: 4.7 }] },
   ];
 
   return (
